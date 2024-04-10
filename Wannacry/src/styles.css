@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #861413;
+}
+
+.container{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.left_row{
+  width: 250px;
+  height: 100%;
+}
+
+.left_row .logo img{
+  align-items: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 140px;
+}
+
+.left_row .time_sections{
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 155px;
+  border: solid 1px white;
+}
+
+.left_row .time_sections{
+  text-align: center;
+  color: #ffdd00;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.left_row .time_sections .date-time{
+  margin-top: 10px;
+  color: white;
+}
+
+.left_row .time_sections h4{
+  margin-top: 50px;
+  color: white;
+}
+
+.left_row .time_sections .timer{
+  font-size: xx-large;
+  margin-top: -10px;
+  color: white;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 800;
+}
+
+#background {
+  position: absolute;
+  top: -130px;
+  left: 235px;
+  position: relative;
+  width: 20px;
+  height: 80%;
+  background: linear-gradient(to bottom, green 0%, red 100%);
+}
+
+#background2{
+  position: absolute;
+  top: -120px;
+  left: 235px;
+  position: relative;
+  width: 20px;
+  height: 80%;
+  background: linear-gradient(to bottom, green 0%, red 100%);
+}
+
+.about_section{
+  padding: 20px;
+}
+
+.about_section div{
+  margin-top: 5px;
+}
+.about_section div a{
+  color: #00d0ff;
+}
+
+.right_row{
+  width: 68%;
+  padding: 5px;
+}
+
+.right_row .title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_row .title h2{
+  color: white;
+}
+
+.right_row .title #lang{
+  width: 100px;
+}
+
+.right_row .desc{
+  margin-top: 10px;
+  padding: 2px;
+  background-color: white;
+  width: 100%;
+  height: 469px;
+  border: solid 2px #c9cacc;
+  overflow-y: scroll;
+}
+
+.right_row .desc p{
+  margin-bottom: 15px;
+}
+
+.right_row .bitcoin{
+  width: 100%;
+  margin-top: 10px;
+  height: 80px;
+  border: solid 2px #c9cacc;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 2px;
+}
+
+.right_row .bitcoin .bitcoine_logo{
+  width: 180px;
+  margin-left: -2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #c9cacc;
+  display: flex;
+  gap: 5px;
+}
+
+.right_row .bitcoin .bitcoine_logo img{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right_row .bitcoin .bitcoine_logo b{
+  font-size: x-large;
+  font-style: italic;
+  position: relative;
+  top: 10px;
+}
+
+.right_row .bitcoin .bitcoine_logo span{
+  font-size: x-small;
+  position: relative;
+}
+
+.right_row .bitcoin .walet_price{
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 800;
+  color: #ffdd00;
+}
+
+.right_row .bitcoin .walet_price .wallet{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.right_row .bitcoin .walet_price .wallet .wal{
+  display: flex;
+  width: 100%;
+  height: 30px;
+  border: 1px solid white;
+}
+
+.right_row .bitcoin .walet_price .wallet .wal p{
+  color: white;
+  position: relative;
+  top: 8px;
+  margin-left: 5px;
+}
+
+.right_row .bitcoin .walet_price .wallet button{
+  border: 1px #c9cacc solid;
+}
+
+.right_row .buttons{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-right: -8px;
+}
+
+.right_row .buttons button{
+  width: 100%;
+  padding: 5px;
+  border: 1px #c9cacc solid;
+}
